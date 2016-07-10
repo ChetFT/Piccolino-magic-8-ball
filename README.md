@@ -1,2 +1,30 @@
 # Piccolino-magic-8-ball
 Magic 8 Ball Using Piccolino
+
+Parts:
+Piccolino with display from
+http://www.piccolino.rocks
+
+FTDI programmer to connect the Piccolino to the Arduino development enviornment on your PC
+http://www.piccolino.rocks
+
+Amazon gift card case. There are several from which to choose. They have a nice window in the bottom for the display.
+https://www.amazon.com/Amazon-com-Gift-Black-Classic-Design/dp/B0160LI5T0/ref=sr_1_7?s=gift-cards&ie=UTF8&qid=1468155887&sr=1-7&keywords=gift+card
+
+I used a tilt-switch from the junk box. If you buy a new one, it should be able to carry 20 mA of current. The tilt switch turns the unit on when the box is turned upside down (revealing the display), and turns the unit off when turned right-side-up. Here's one that will work OK:
+https://www.amazon.com/uxcell®-Motion-Position-Mercury-Switch/dp/B00TX5YAF4/ref=sr_1_7?ie=UTF8&qid=1468157001&sr=8-7&keywords=tilt+switch
+
+3x AAA batteries
+
+Instructions:
+Connect approx 3-inch long pieces of wire to the analog inputs (piccolino pins 23, 24, 25). The wires act as antennas, so the second end of the wires is left unattached. This provdes the noise needed for the 8-Ball answer randomification. The antennas work best if they are rounted in a circle around the piccolino pcb (Google Michael Faraday if you want to know why that is). Connect the 3 AAA batteries in series. Connect the resuting 4.5V battery + to piccolino pin 28. Connect the - terminal to piccolino pin 27.
+
+Tools:
+Soldering wires works the best, but another way is to use wire-wrap. Google wire wrap tool, or you can get a tool and wire here:
+
+https://www.amazon.com/Electronix-Express-03WTE-Wire-Gauge/dp/B00BFYE0CY/ref=sr_1_1?ie=UTF8&qid=1468156811&sr=8-1&keywords=wire+wrap+tool
+
+https://www.amazon.com/Breadboard-B-30-1000-Plated-Copper-Wrapping/dp/B008AGUAII/ref=sr_1_3?ie=UTF8&qid=1468156936&sr=8-3&keywords=wire+wrap+wire
+
+
+
