@@ -9,6 +9,9 @@ http://www.piccolino.rocks
 FTDI programmer to connect the Piccolino to the Arduino development enviornment on your PC
 http://www.piccolino.rocks
 
+Arduino development enviornment:
+https://www.arduino.cc/en/Main/Software
+
 Amazon gift card case. There are several from which to choose. They have a nice window in the bottom for the display.
 https://www.amazon.com/Amazon-com-Gift-Black-Classic-Design/dp/B0160LI5T0/ref=sr_1_7?s=gift-cards&ie=UTF8&qid=1468155887&sr=1-7&keywords=gift+card
 
@@ -18,6 +21,8 @@ https://www.amazon.com/uxcell®-Motion-Position-Mercury-Switch/dp/B00TX5YAF4/ref
 3x AAA batteries
 
 Instructions:
+The arduino web site referenced above will get you started with the programming interface for your PC. The piccolino website will give you specific instructions on how to get the piccolino board working with the programming interface. You need to select the correct board type in the enviornment. Under tools/board select Arduino Pro Pro Mini, and under tools/port select your serial port.
+
 Connect approx 3-inch long pieces of wire to the analog inputs (piccolino pins 23, 24, 25). The wires act as antennas, so the second end of the wires is left unattached. This provdes the noise needed for the 8-Ball answer randomification. The antennas work best if they are rounted in a circle around the piccolino pcb (Google Michael Faraday if you want to know why that is). Connect the 3 AAA batteries in series. Connect the resuting 4.5V battery + to piccolino pin 28. Connect the - terminal to piccolino pin 27.
 
 Tools:
